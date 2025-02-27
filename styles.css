@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.park {
+    overflow: auto; /* Ensures content wraps properly around floated images */
+    margin-bottom: 20px;
+}
+
+.park img {
+    width: 15%; /* Image takes up 15% of the page width */
+    height: auto; /* Maintains aspect ratio */
+    margin: 10px;
+}
+
+.caverns img {
+    float: left;
+    margin-right: 15px; /* Adds space between the image and text */
+}
+
+.springs img {
+    float: right;
+    margin-left: 15px;
+}
+
+.dickinson img {
+    float: left;
+    margin-right: 15px;
+}
